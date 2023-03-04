@@ -1,0 +1,343 @@
+/* VERSION MOBILE start */
+@media only screen and (max-width: 767px) {
+
+    /* MENU start */
+
+    .logo {
+        margin-left: 10%;
+    }
+
+    .menu-img img {
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    main {
+        position: relative;
+        z-index: 2;
+        margin-top: -50px;
+        background-color: var(--color-form);
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    .title-menu {
+        font-family: var(--font-title);
+        margin: 0 20px 0 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .title-menu span {
+        margin-top: 30px;
+    }
+
+    #menu {
+        /* margin-left: 10px;
+        margin-right: 10px; */
+
+        font-family: var(--font-text);
+        /* display: flex; */
+        width: 100%;
+    }
+
+    .menu-part {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #menu h2 {
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    #menu h2::before {
+        position: absolute;
+        content: '';
+        height: 4px;
+        width: 15%;
+        background-color: var(--tertiary);
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+
+    #menu article {
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 4px 4px rgba(0, 2, 4, 0.2);
+        padding-left: 10px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .list-card {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .card-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+    .card-info h3,
+    p {
+        margin: 1px;
+    }
+
+    .card-title{
+        margin-top: 5px;
+    }
+
+    .card-info2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 2px;
+    }
+
+    .card-anim {
+        margin-left: 20px;
+        width: 0%;
+        color: white;
+        background-color: var(--tertiary);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-anim i {
+        font-size: 26px;
+    }
+
+    #ctn-btn button {
+        width: 60%;
+        font-family: var(--font-text);
+        margin: 20px 20% 20px 20%;
+    }
+
+    .return-ctn {
+        font-size: 18px;
+    }
+
+    /* MENU end */
+}
+
+/* VERSION MOBILE end */
+
+/* VERSION TABLET start */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #menu {
+        font-family: var(--font-text);
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .logo {
+        position: relative;
+        left: 13%;
+    }
+
+    .return-ctn {
+        font-size: 26px;
+    }
+
+}
+
+/* VERSION TABLET end */
+
+/* VERSION PC/TABLET start */
+@media only screen and (min-width: 768px) {
+
+    .menu-img {
+        width: 100%;
+    }
+
+    /* MENU start */
+    .logo {
+
+        padding-left: 40px;
+    }
+
+    .menu-img img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    main {
+        position: relative;
+        z-index: 2;
+        margin-top: -50px;
+        background-color: var(--color-form);
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    .title-menu {
+        font-family: var(--font-title);
+        margin: 0 20px 0 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .title-menu span {
+        margin-top: 30px;
+    }
+
+
+
+    .menu-part {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+    }
+
+    #menu h2 {
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    #menu h2::before {
+        position: absolute;
+        content: '';
+        height: 4px;
+        width: 15%;
+        background-color: var(--tertiary);
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    #menu article {
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 4px 4px rgba(0, 2, 4, 0.2);
+        padding-left: 10px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .list-card {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .card-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px 0 10px 10px;
+    }
+
+    .card-info h3,
+    .card-info p {
+        margin: 1px 0 1px 0;
+        padding: 5px;
+    }
+
+    .card-info h3 {
+        margin: 0;
+        padding: 5px;
+    }
+
+    .card-info2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    .card-info2 h3 {
+        display: flex;
+        justify-content: end;
+    }
+
+    .card-anim {
+        margin-left: 20px;
+        width: 0%;
+        color: white;
+        background-color: var(--tertiary);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-anim i {
+        font-size: 26px;
+    }
+
+    #ctn-btn button {
+        width: 20%;
+        font-family: var(--font-text);
+        margin: 20px 40% 20px 40%;
+    }
+
+    #ctn-btn button:hover {
+        box-shadow: 0 5px 5px rgba(0, 2, 4, 0.4);
+    }
+
+    footer ul {
+        justify-content: space-evenly;
+    }
+
+}
+
+/* VERSION PC/TABLET end */
+
+/* VERSION PC start */
+@media only screen and (min-width: 992px) {
+    #menu {
+        font-family: var(--font-text);
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .return-ctn {
+        font-size: 30px;
+    }
+}
+
+/* VERSION PC end */
+
+.ctn-logo-menu {
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 4px rgba(0, 2, 4, 0.2);
+    display: inline-block;
+    padding: 10px 0;
+    display: flex;
+}
+
+.return-ctn {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    color: black;
+}
