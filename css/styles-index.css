@@ -601,6 +601,9 @@
     .ctn-tx{
         width: 100%;
     }
+    .ctn-tx p{
+        margin-top: 0;
+    }
     .align{
         display: flex;
         flex-direction: row;
